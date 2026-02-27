@@ -45,12 +45,14 @@ while (restart)
 
         // 뽑은 카드 출력
         player.ShowCard(player.Carddraw());
-        if(player.score > 21)
+        player.ShowDeck();
+
+        if (player.score > 21)
         {
             break;
         }
         // 패 출력
-        player.ShowDeck();
+        
 
 
         str = player.HitorStand();
