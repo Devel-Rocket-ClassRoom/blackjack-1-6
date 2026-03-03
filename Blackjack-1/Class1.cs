@@ -6,6 +6,7 @@ using System;
 using System.Text;
 
 namespace 블랙잭
+namespace blackjack
 {
     using System;
     using System.Collections;
